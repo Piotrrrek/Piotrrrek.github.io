@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    box-sizing: border-box;
+    background-image: url("1/images/Hot%20vs%20Cold%202560x1440.jpg.png"),url(1/images/hot-vs-cold-2560x1440-copy.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.topLogo {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    opacity: 0.2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 70px;
+    text-align: center;
+}
+/*nagłówki */
+
+.hthirty {
+    /* Style for "Register F" */
+    width: 191px;
+    height: 30px;
+    text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 30px;
+    font-weight: 500;
+    margin: 25px auto 18px;
+    padding: 15px;
+}
+
+.htwentyf {
+    width: 191px;
+    height: 30px;
+    text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px auto 18px;
+    padding: 10px;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input {
+    color: #999;
+    height: 39px;
+    padding: 0 80px;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    width: 176px;
+    margin-top: 20px;
+    margin-left: 23px;
+    margin-right: 21px;
+}
+
+select {
+    color: #999;
+    height: 39px;
+    margin-top: 20px;
+    padding: 0 80px;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    width: 382px;
+}
+
+option {
+    white-space: pre;
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+}
+
+.wrapper {
+    display: flex;
+    height: 50px;
+}
+
+.wrapper1 {
+    display: flex;
+    padding: 21px;
+}
+.next_wrapper{
+    display: inline-flex;
+    margin-top:-10px;
+}
+p {
+    /* Style for "I have rea" */
+    width: 297px;
+    height: 17px;
+    color: #afafaf;
+    font-family: "Titillium Web";
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 15px;
+    padding-top: 19px;
+}
+
+.signin_p{
+    width: 297px;
+    height: 17px;
+    color: #afafaf;
+    font-family: "Titillium Web";
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/*ikonki dla inputów itd*/
+
+input[type="password"] {
+    background: url(1/images/glyphicons-203-lock.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+}
+
+input[type="text"] {
+    background: url(1/images/glyphicons-003-user.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+}
+
+input[type="email"] {
+    background: url(1/images/glyphicons-010-envelope.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+}
+
+input[type="tel"] {
+    background: url(1/images/glyphicons-139-phone.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+}
+
+select {
+    background: url(1/images/glyphicons-242-google-maps.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+    width: 338px;
+}
+
+/*przyciski*/
+
+#checkBox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    padding: 1px;
+    margin-top: 19px;
+}
+
+#checkBox:checked {
+    background: url(1/images/shape-10.png) no-repeat center;
+}
+
+.register_button {
+    /* Style for "Shape 12" */
+    width: 339px;
+    height: 48px;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid #3b9a00;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+    border-radius: 5px;
+    margin-left: 23px;
+    margin-right: 20px;
+    margin-bottom: 18px;
+}
+
+#signin_button {
+    /* Style for "Shape 14" */
+    display: flex;
+    justify-content: center;
+    width: 139px;
+    height: 41px;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid #3b9a00;
+    border-radius: 5px;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+}
+
+.sign {
+    /* Style for "Sign up" */
+    width: 75px;
+    height: 23px;
+    text-shadow: 1px 1px 0 #51850e;
+    color: #ffffff;
+    font-family: "TitilliumText22L-Medium";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box .wrapper1 p {
+    width: 109px;
+    padding-right: 51px;
+}
+
+/*recover form */
+
+.wrapper2 {
+    display: flex;
+    padding-top: 21px;
+    padding-bottom: 27px;
+
+}
+
+.sendbutton {
+    /* Style for "Shape 14" */
+    width: 149px;
+    height: 41px;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid #3b9a00;
+    border-radius: 5px;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+    margin-right: 43px;
+}
+
+.donebutton {
+    /* Style for "Shape 14" */
+    width: 149px;
+    height: 41px;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.32);
+    border: 1px solid #90ca6d;
+    border-radius: 5px;
+    background-color: #bcdb97;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+    opacity: 0.7;
+}
+
+.rb {
+    /* Style for "Send" */
+    width: 37px;
+    height: 13px;
+    text-shadow: 1px 1px 0 #51850e;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*email form*/
+
+textarea {
+    height: 337px;
+    color: #999;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 23px;
+    padding-top: 14px;
+    padding-left: 15px;
+    padding-right: 20px;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+}
+
+.wrapper3 {
+
+    padding-bottom: 27px;
+    padding-left: 42px;
+    padding-right: 39px;
+}
+
+.anotherway {
+    display: inline-flex;
+    padding-bottom: 14px;
+}
+.anotherway p {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.email_button {
+    /* Style for "Shape 12" */
+    width: 339px;
+    height: 48px;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid #3b9a00;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+}
+
+.sb {
+    /* Style for "Shape 14" */
+    width: 149px;
+    height: 41px;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid #3b9a00;
+    border-radius: 5px;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+    margin-top:26px;
+    margin-bottom: 20px;
+}
+
+.sb1 {
+    /* Style for "Shape 14" */
+    width: 149px;
+    height: 41px;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid #a2202a;
+    border-radius: 5px;
+    background-color: #f4495b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+    margin-left: 43px;
+    margin-top:26px;
+    margin-bottom: 20px;
+
+}
+.sub_span{
+    /* Style for "No, Thanks" */
+    width: 84px;
+    height: 16px;
+    text-shadow: 1px 1px 0 #51850e;
+    color: #ffffff;
+    font-family: "Titillium Text 22 L";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logoDown{
+    padding-top: 59px;
+}

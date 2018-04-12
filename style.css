@@ -271,6 +271,7 @@ select {
 textarea {
     height: 337px;
     color: #999;
+    min-height: 100px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 23px;

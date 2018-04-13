@@ -21,16 +21,18 @@
             <h2 class="hpix hsize1">Register Form</h2>
             <div class="box">
                 <form action="#">
-                    <input type="text" placeholder="Username">
-                    <input type="password" placeholder="Password">
-                    <input type="password" placeholder="Confirm Password">
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required>
                     <input type="email" placeholder="Email">
+                    <div class="selectdiv">
                     <select>
                            <option value="">Your Location</option>
                            <option value="Warszawa">Łódz</option>
                            <option value="Łódź">Warszawa</option>
                            <option value="Gdańsk">Gdańsk</option>
-                       </select>
+                    </select>
+                    </div>
                     <div class="wrapper">
                         <input id="checkBox" type="checkbox">
                         <label for="checkBox"><p>I have read and accept the terms of use.</p></label>
@@ -41,8 +43,8 @@
             <h2 class="hpix hsize2">Send Email</h2>
             <div class="box">
                 <form action="#">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your email">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
                     <textarea name="textarea" cols="50" placeholder="Type your message..."></textarea>
                     <div class="wrapper3">
                         <div class="anotherway">
@@ -58,8 +60,8 @@
             <h2 class="hpix hsize3">Sign In Form</h2>
             <div class="box">
                 <form action="#">
-                    <input type="text" placeholder="Username">
-                    <input type="password" placeholder="Password">
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
                     <div class="wrapper1">
                         <div class="next_wrapper">
                             <input id="checkBox2" type="checkbox">
@@ -72,8 +74,8 @@
             <h2 class="hpix hsize4">Recover Form</h2>
             <div class="box">
                 <form action="#">
-                    <input type="email" placeholder="Enter your Email">
-                    <input type="tel" placeholder="Enter your phone number">
+                    <input type="email" placeholder="Enter your Email" required>
+                    <input type="tel" placeholder="Enter your phone number" required>
                     <div class="wrapper2">
                         <button class="sendbutton btn"><span class="rb">Send</span></button>
                         <button class="donebutton btn"><span class="rb">Done</span></button>
@@ -83,7 +85,7 @@
             <h2 class="hpix hsize5">Subscribe Form</h2>
             <div class="box">
                 <form action="#">
-                    <input type="email" placeholder="Enter your Email">
+                    <input type="email" placeholder="Enter your Email" required>
                     <button class="sb btn"><span class="sub_span">Subscribe</span></button>
                     <button class="sb1 btn1"><span class="sub_span">No, Thanks</span></button>
                 </form>

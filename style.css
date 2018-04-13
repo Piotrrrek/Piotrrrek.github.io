@@ -48,7 +48,7 @@ img {
     /* Style for "Register F" */
     width: 191px;
     text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: "Titillium Web";
     font-size: 32px;
     font-weight: 500;
@@ -106,17 +106,7 @@ input {
 }
 
 input::placeholder {
-    font-size: 12px;
-}
-
-select {
-    color: #999;
-    height: 39px;
-    margin-top: 20px;
-    padding: 0 80px;
-    outline: none;
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 5px;
+    font-size: 16px;
 }
 
 option {
@@ -148,7 +138,7 @@ option {
 p {
     /* Style for "I have rea" */
     width: 297px;
-    color: #afafaf;
+    color: rgb(175, 175, 175);
     font-family: "Titillium Web";
     font-size: 17px;
     font-weight: 300;
@@ -159,7 +149,7 @@ p {
 .signin_p {
     width: 297px;
     height: 17px;
-    color: #afafaf;
+    color: rgb(175, 175, 175);
     font-family: "Titillium Web";
     font-size: 17px;
     font-weight: 300;
@@ -174,23 +164,42 @@ p {
 
 input[type="password"] {
     background: url(1/images/glyphicons-203-lock.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+    color: rgb(0, 0, 0);
 }
 
 input[type="text"] {
     background: url(1/images/glyphicons-003-user.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+    color: rgb(0, 0, 0);
 }
 
 input[type="email"] {
     background: url(1/images/glyphicons-010-envelope.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+    color: rgb(0, 0, 0);
 }
 
 input[type="tel"] {
     background: url(1/images/glyphicons-139-phone.png) no-repeat 22px, url("1/images/shape-5-copy.png") no-repeat 58px;
+    color: rgb(0, 0, 0);
 }
 
 select {
-    background: url(1/images/glyphicons-242-google-maps.png) no-repeat 22px, url("1/images/shape-5-copy.png") no-repeat 58px;
     width: 338px;
+    color: rgb(153, 153, 153);
+    height: 39px;
+    padding: 0 80px;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 23px;
+    margin-right: 21px;
+}
+
+select:first-child {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(1/images/glyphicons-242-google-maps.png) no-repeat 22px, url("1/images/shape-5-copy.png") no-repeat 58px, url('1/images/shape-11.png') no-repeat right;
 }
 
 /*przyciski*/
@@ -244,9 +253,9 @@ select {
     /* Style for "Shape 12" */
     width: 339px;
     height: 48px;
-    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
-    border: 1px solid #3b9a00;
-    background-color: #93d02b;
+    box-shadow: 1px 1px 0 rgb(255, 255, 255), inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid rgb(59, 154, 0);
+    background-color: rgb(147, 208, 43);
     border-radius: 5px;
     margin-left: 23px;
     margin-right: 20px;
@@ -259,18 +268,18 @@ select {
     justify-content: center;
     width: 139px;
     height: 41px;
-    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
-    border: 1px solid #3b9a00;
+    box-shadow: 1px 1px 0 rgb(255, 255, 255), inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid rgb(59, 154, 0);
     border-radius: 5px;
-    background-color: #93d02b;
+    background-color: rgb(147, 208, 43);
 }
 
 .sign {
     /* Style for "Sign up" */
     width: 75px;
     height: 23px;
-    text-shadow: 1px 1px 0 #51850e;
-    color: #ffffff;
+    text-shadow: 1px 1px 0 rgb(81, 133, 14);
+    color: rgb(255, 255, 255);
     font-family: "TitilliumText22L-Medium";
     font-size: 24px;
     font-weight: 500;
@@ -279,14 +288,14 @@ select {
 /*hovery*/
 
 .btn:hover {
-    background-color: #bcdb97;
+    background-color: rgb(188, 219, 151);
     opacity: 0.8;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .btn1:hover {
-    background-color: #f66373;
+    background-color: rgb(246, 99, 115);
     opacity: 0.8;
     transition: 0.5s;
     cursor: pointer;
@@ -304,7 +313,7 @@ select {
 .sendbutton {
     width: 149px;
     height: 41px;
-    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    box-shadow: 1px 1px 0 rgb(255, 255, 255), inset 1px 1px 1px rgba(255, 255, 255, 0.41);
     border: 1px solid #3b9a00;
     border-radius: 5px;
     background-color: #93d02b;
@@ -314,7 +323,7 @@ select {
 .donebutton {
     width: 149px;
     height: 41px;
-    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    box-shadow: 1px 1px 0 rgb(255, 255, 255), inset 1px 1px 1px rgba(255, 255, 255, 0.41);
     border: 1px solid #3b9a00;
     border-radius: 5px;
     background-color: #93d02b;
@@ -334,7 +343,7 @@ select {
 
 textarea {
     height: 337px;
-    color: #999;
+    color: rgb(0, 0, 0);
     min-height: 100px;
     min-width: 200px;
     max-height: 500px;

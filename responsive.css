@@ -82,9 +82,11 @@
     .box {
         width: 100%;
     }
-    select {
+   select {
+        display: flex;
+        flex-wrap: wrap;
         width: 80%;
-        padding-right: 0;
+        font-size: 12px;
     }
     input {
         width: 50%;

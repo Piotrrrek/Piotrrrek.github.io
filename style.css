@@ -40,7 +40,7 @@ section {
     text-align: center;
 }
 
-/*nagłówki */
+/*headers */
 
 .hpix {
     /* Style for "Register F" */
@@ -79,7 +79,7 @@ section {
     width: 212px;
 }
 
-/*tabelki*/
+/*forms and inputs*/
 
 form {
     background-color: rgb(255, 255, 255);
@@ -121,7 +121,7 @@ input::placeholder {
     margin-top: -10px;
 }
 
-/*paragrafy*/
+/*paragraphs*/
 
 p {
     /* Style for "I have rea" */
@@ -148,7 +148,7 @@ p {
     padding-right: 51px;
 }
 
-/*ikonki dla inputów itd*/
+/*icons for inputs etc d*/
 
 input[type="password"] {
     background: url(1/images/glyphicons-203-lock.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
@@ -182,7 +182,7 @@ select {
     background: url(1/images/glyphicons-242-google-maps.png) no-repeat 22px, url("1/images/shape-5-copy.png") no-repeat 58px;
 }
 
-/*przyciski*/
+/*buttons*/
 
 #checkBox {
     -webkit-appearance: none;
@@ -263,7 +263,7 @@ select {
     font-weight: 500;
 }
 
-/*hovery*/
+/*hovers*/
 
 .btn:hover {
     background-color: rgb(188, 219, 151);

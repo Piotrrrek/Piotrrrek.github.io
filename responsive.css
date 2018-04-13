@@ -16,7 +16,7 @@
         height: 90%;
     }
 
-    /*przyciski */
+    /*buttons */
     .email_button {
         width: 100%;
     }
@@ -44,7 +44,7 @@
         margin-left: 5px;
     }
 
-    /*paragrafy*/
+    /*paragraphs*/
     p {
         font-size: 12px;
         width: 120px;
@@ -59,7 +59,7 @@
         margin-left: 0;
         padding-right: 0;
     }
-    /*wrapery*/
+    /*wrappers*/
     .wrapper {
         margin-bottom: 30px
     }

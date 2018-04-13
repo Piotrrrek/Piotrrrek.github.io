@@ -106,4 +106,7 @@
     input::placeholder {
         font-size: 11px;
     }
+    input[type=tel]::placeholder {
+        font-size: 10px;
+    }
 }

@@ -271,12 +271,14 @@ select {
     background-color: #bcdb97;
     opacity: 0.8;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .btn1:hover {
     background-color: #f66373;
     opacity: 0.8;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 /*recover form */

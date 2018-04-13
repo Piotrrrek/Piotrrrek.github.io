@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Dev 1</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -24,15 +27,15 @@
 
                     <select>
                            <option value="">Your Location</option>
-                           <option value="Warszawa">Warszawa</option>
-                           <option value="Łódź">Łódz</option>
+                           <option value="Warszawa">Łódz</option>
+                           <option value="Łódź">Warszawa</option>
                            <option value="Gdańsk">Gdańsk</option>
                        </select>
                     <div class="wrapper">
                         <input id="checkBox" type="checkbox">
-                        <p>I have read and accept the terms of use.</p>
+                        <label for="checkBox"><p>I have read and accept the terms of use.</p></label>
                     </div>
-                    <button class="register_button"><span class="sign">Sign up</span></button>
+                    <button class="register_button btn"><span class="sign">Sign up</span></button>
                 </form>
             </div>
             <h2 class="htwentyf">Send Email</h2>
@@ -40,13 +43,13 @@
                 <form action="#">
                     <input type="text" placeholder="Your Name" name="">
                     <input type="email" placeholder="Your email" name="">
-                    <textarea name="textarea" rows="1010" cols="50">Type your message ...</textarea>
+                    <textarea name="textarea" rows="1010" cols="50" placeholder="Type your message..."></textarea>
                     <div class="wrapper3">
                         <div class="anotherway">
-                            <input id="checkBox" type="checkbox">
-                            <p>Send a copy to my email</p>
+                            <input id="checkBox1" type="checkbox">
+                            <label for="checkBox1"><p>Send a copy to my email</p></label>
                         </div>
-                        <button class="email_button"><span class="sign">Send email</span></button>
+                        <button class="email_button btn"><span class="sign">Send email</span></button>
                     </div>
                 </form>
             </div>
@@ -59,10 +62,10 @@
                     <input type="password" placeholder="Password" name="">
                     <div class="wrapper1">
                         <div class="next_wrapper">
-                            <input id="checkBox" type="checkbox">
-                            <p class="signin_p">Remember me</p>
+                            <input id="checkBox2" type="checkbox">
+                            <label for="checkBox2"><p class="signin_p">Remember me</p></label>
                         </div>
-                        <button id="signin_button"><span class="sign">Sign in</span></button>
+                        <button class="signin_button btn"><span class="sign">Sign in</span></button>
                     </div>
                 </form>
             </div>
@@ -72,8 +75,8 @@
                     <input type="email" placeholder="Enter your Email" name="">
                     <input type="tel" placeholder="Enter your phone number" name="">
                     <div class="wrapper2">
-                        <button class="sendbutton"><span class="rb">Send</span></button>
-                        <button class="donebutton"><span class="rb">Done</span></button>
+                        <button class="sendbutton btn"><span class="rb">Send</span></button>
+                        <button class="donebutton btn"><span class="rb">Done</span></button>
                     </div>
                 </form>
             </div>
@@ -81,8 +84,8 @@
             <div class="box">
                 <form action="#">
                     <input type="email" placeholder="Enter your Email" name="">
-                    <button class="sb"><span class="sub_span">Subscribe</span></button>
-                    <button class="sb1"><span class="sub_span">No, Thanks</span></button>
+                    <button class="sb btn"><span class="sub_span">Subscribe</span></button>
+                    <button class="sb1 btn1"><span class="sub_span">No, Thanks</span></button>
                 </form>
             </div>
             <img class="logoDown" src="1/images/masteralb-com-logo.png" alt="dolne_logo">

@@ -2,14 +2,15 @@
 * {
     padding: 0;
     margin: 0;
-    
+
 }
+
 body {
     box-sizing: border-box;
-    background-image: url("1/images/Hot%20vs%20Cold%202560x1440.jpg.png"),url(1/images/hot-vs-cold-2560x1440-copy.png);
+    background: url(1/images/Hot%20vs%20Cold%202560x1440.jpg.png) center center no-repeat;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
+
 section {
     display: flex;
     justify-content: center;
@@ -27,12 +28,20 @@ img {
     opacity: 0.2;
 }
 
-.container{
+.box {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 382px;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     margin: 0 70px;
     text-align: center;
 }
+
 /*nagłówki */
 
 .hthirty {
@@ -49,6 +58,7 @@ img {
 }
 
 .htwentyf {
+    /* Style for "Sign in form" */
     width: 191px;
     height: 30px;
     text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
@@ -60,8 +70,11 @@ img {
     padding: 10px;
 }
 
+/*tabelki*/
+
 form {
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +94,10 @@ input {
     margin-right: 21px;
 }
 
+input::placeholder {
+    font-size: 12px;
+}
+
 select {
     color: #999;
     height: 39px;
@@ -91,19 +108,14 @@ select {
     border-radius: 5px;
 }
 
-.box {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 5px;
-    width: 382px;
-}
-
 option {
     white-space: pre;
     font-weight: normal;
     display: block;
     min-height: 1.2em;
 }
+
+/*wrappy*/
 
 .wrapper {
     display: flex;
@@ -114,23 +126,26 @@ option {
     display: flex;
     padding: 21px;
 }
-.next_wrapper{
+
+.next_wrapper {
     display: inline-flex;
-    margin-top:-10px;
+    margin-top: -10px;
 }
+
+/*paragrafy*/
+
 p {
     /* Style for "I have rea" */
     width: 297px;
-    height: 17px;
     color: #afafaf;
     font-family: "Titillium Web";
     font-size: 17px;
     font-weight: 300;
-    padding-left: 15px;
     padding-top: 19px;
+    margin-left: 12px;
 }
 
-.signin_p{
+.signin_p {
     width: 297px;
     height: 17px;
     color: #afafaf;
@@ -138,6 +153,13 @@ p {
     font-size: 17px;
     font-weight: 300;
 }
+
+.box .wrapper1 p {
+    width: 109px;
+    padding-right: 51px;
+}
+
+
 
 /*ikonki dla inputów itd*/
 
@@ -154,11 +176,11 @@ input[type="email"] {
 }
 
 input[type="tel"] {
-    background: url(1/images/glyphicons-139-phone.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+    background: url(1/images/glyphicons-139-phone.png) no-repeat 22px, url("1/images/shape-5-copy.png") no-repeat 58px;
 }
 
 select {
-    background: url(1/images/glyphicons-242-google-maps.png) no-repeat 17px, url("1/images/shape-5-copy.png") no-repeat 58px;
+    background: url(1/images/glyphicons-242-google-maps.png) no-repeat 22px, url("1/images/shape-5-copy.png") no-repeat 58px;
     width: 338px;
 }
 
@@ -168,14 +190,44 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 24px;
     margin: 3px;
     padding: 1px;
     margin-top: 19px;
 }
 
 #checkBox:checked {
+    background: url(1/images/shape-10.png) no-repeat center;
+}
+
+#checkBox1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    margin: 3px;
+    padding: 1px;
+    margin-top: 19px;
+}
+
+#checkBox1:checked {
+    background: url(1/images/shape-10.png) no-repeat center;
+}
+
+#checkBox2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    margin: 3px;
+    padding: 1px;
+    margin-top: 19px;
+}
+
+#checkBox2:checked {
     background: url(1/images/shape-10.png) no-repeat center;
 }
 
@@ -186,14 +238,13 @@ select {
     box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
     border: 1px solid #3b9a00;
     background-color: #93d02b;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
     border-radius: 5px;
     margin-left: 23px;
     margin-right: 20px;
     margin-bottom: 18px;
 }
 
-#signin_button {
+.signin_button {
     /* Style for "Shape 14" */
     display: flex;
     justify-content: center;
@@ -203,7 +254,6 @@ select {
     border: 1px solid #3b9a00;
     border-radius: 5px;
     background-color: #93d02b;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
 }
 
 .sign {
@@ -217,9 +267,18 @@ select {
     font-weight: 500;
 }
 
-.box .wrapper1 p {
-    width: 109px;
-    padding-right: 51px;
+/*hovery*/
+
+.btn:hover {
+    background-color: #bcdb97;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    background-color: #f66373;
+    opacity: 0.8;
+    transition: 0.5s;
 }
 
 /*recover form */
@@ -232,31 +291,25 @@ select {
 }
 
 .sendbutton {
-    /* Style for "Shape 14" */
     width: 149px;
     height: 41px;
     box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
     border: 1px solid #3b9a00;
     border-radius: 5px;
     background-color: #93d02b;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
     margin-right: 43px;
 }
 
 .donebutton {
-    /* Style for "Shape 14" */
     width: 149px;
     height: 41px;
-    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.32);
-    border: 1px solid #90ca6d;
+    box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+    border: 1px solid #3b9a00;
     border-radius: 5px;
-    background-color: #bcdb97;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
-    opacity: 0.7;
+    background-color: #93d02b;
 }
 
 .rb {
-    /* Style for "Send" */
     width: 37px;
     height: 13px;
     text-shadow: 1px 1px 0 #51850e;
@@ -272,6 +325,8 @@ textarea {
     height: 337px;
     color: #999;
     min-height: 100px;
+    min-width: 200px;
+    max-height: 500px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 23px;
@@ -294,49 +349,49 @@ textarea {
     display: inline-flex;
     padding-bottom: 14px;
 }
+
 .anotherway p {
     display: inline-flex;
     justify-content: flex-start;
 }
 
 .email_button {
-    /* Style for "Shape 12" */
     width: 339px;
     height: 48px;
     box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
     border: 1px solid #3b9a00;
+    border-radius: 5px;
     background-color: #93d02b;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
+
 }
 
+/*sub form*/
+
 .sb {
-    /* Style for "Shape 14" */
     width: 149px;
     height: 41px;
     box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
     border: 1px solid #3b9a00;
     border-radius: 5px;
     background-color: #93d02b;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
-    margin-top:26px;
+    margin-top: 26px;
     margin-bottom: 20px;
 }
 
 .sb1 {
-    /* Style for "Shape 14" */
     width: 149px;
     height: 41px;
     box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
     border: 1px solid #a2202a;
     border-radius: 5px;
     background-color: #f4495b;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.36) 0%, rgba(255, 255, 255, 0.36) 100%);
     margin-left: 43px;
-    margin-top:26px;
+    margin-top: 26px;
     margin-bottom: 20px;
 
 }
-.sub_span{
+
+.sub_span {
     /* Style for "No, Thanks" */
     width: 84px;
     height: 16px;
@@ -347,6 +402,6 @@ textarea {
     font-weight: 500;
 }
 
-.logoDown{
+.logoDown {
     padding-top: 59px;
 }

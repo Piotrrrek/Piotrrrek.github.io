@@ -1,4 +1,4 @@
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 440px) {
 
     .container {
         align-items: center;
@@ -68,15 +68,12 @@
         padding-bottom: 15px;
     }
 
-    .wrapper1 {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+    .wrapper1,
     .wrapper3 {
         flex-wrap: wrap;
         justify-content: center;
-    }
 
+    }
     .wrapper2 {
         flex-direction: row;
     }

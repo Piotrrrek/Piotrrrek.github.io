@@ -10,13 +10,6 @@ body {
     background-size: 100% 100%;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 100px;
-}
-
 .topLogo {
     margin-top: 55px;
     display: flex;
@@ -25,6 +18,13 @@ section {
 
 img {
     opacity: 0.2;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
 .box {
@@ -99,9 +99,7 @@ input {
     border: 1px solid rgb(200, 200, 200);
     border-radius: 5px;
     width: 176px;
-    margin-top: 20px;
-    margin-left: 23px;
-    margin-right: 21px;
+    margin: 20px 21px 0 23px;
 }
 
 input::placeholder {
@@ -189,10 +187,7 @@ select {
     outline: none;
     border: 1px solid rgb(200, 200, 200);
     border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 23px;
-    margin-right: 21px;
-
+    margin: 20px 21px 0 23px;
     background: url(1/images/glyphicons-242-google-maps.png) no-repeat 22px, url("1/images/shape-5-copy.png") no-repeat 58px;
 }
 
@@ -251,9 +246,7 @@ select {
     border: 1px solid rgb(59, 154, 0);
     background-color: rgb(147, 208, 43);
     border-radius: 5px;
-    margin-left: 23px;
-    margin-right: 20px;
-    margin-bottom: 18px;
+    margin: 0 20px 18px 23px;
 }
 
 .signin_button {
@@ -299,9 +292,7 @@ select {
 
 .wrapper2 {
     display: flex;
-    padding-top: 21px;
-    padding-bottom: 27px;
-
+    padding: 21px 0 27px 0;
 }
 
 .sendbutton {
@@ -341,22 +332,15 @@ textarea {
     min-height: 100px;
     min-width: 200px;
     max-height: 500px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 23px;
-    padding-top: 14px;
-    padding-left: 15px;
-    padding-right: 20px;
+    margin: 20px 23px 0 20px;
+    padding: 14px 20px 0 15px;
     outline: none;
     border: 1px solid rgb(200, 200, 200);
     border-radius: 5px;
 }
 
 .wrapper3 {
-
-    padding-bottom: 27px;
-    padding-left: 42px;
-    padding-right: 39px;
+    padding: 0 39px 27px 42px;
 }
 
 .anotherway {
@@ -387,8 +371,7 @@ textarea {
     border: 1px solid #3b9a00;
     border-radius: 5px;
     background-color: #93d02b;
-    margin-top: 26px;
-    margin-bottom: 20px;
+    margin: 26px 0 20px 0;
 }
 
 .sb1 {
@@ -398,9 +381,7 @@ textarea {
     border: 1px solid #a2202a;
     border-radius: 5px;
     background-color: #f4495b;
-    margin-left: 43px;
-    margin-top: 26px;
-    margin-bottom: 20px;
+    margin: 26px 0 20px 43px;
 }
 
 .sub_span {
